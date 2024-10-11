@@ -1,0 +1,28 @@
+x=y;
+set place/pointer(move) to place/value
+pointer dont have value value wont move pointer
+places also doesnt have value pretty much like pointer
+
+
+before.next= temp.next; skip over remove temp
+
+
+so there are
+
+-move pointer  pntx=pntxy.next
+
+-remove by skipping over  prev.next=cur.next  remove cur.next
+*before.next=after.next ==SKIP
+-reverse /for length -1 /dummy head/ 3 pnts /reverse skip remove  next/ / reverse next.next to prev.next / move reversed next to prev.next at front
+*after.next=before.next ==reverse
+
+*link.next = link.next or this.head = merg links
+-merg dummy lists prev1.next=dummy2.next  //front needs to be next when adding value cause ifit jsut prev1 that means pointer
+
+-put the value in place pntx.next=pnty
+
+-temp = this.head.value //store value in vaiable temp
+
+
+
+note that remove in between and pop& shift is different
